@@ -15,8 +15,5 @@ interface ClientMiddlewareInterface extends MiddlewareInterface
      * @param DelegateInterface $next
      * @return ResponseInterface
      */
-    public function process(
-        RequestInterface $request,
-        DelegateInterface $next
-    );
+    public function process(RequestInterface $request, DelegateInterface $next);
 }

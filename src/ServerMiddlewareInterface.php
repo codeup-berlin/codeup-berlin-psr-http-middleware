@@ -15,8 +15,5 @@ interface ServerMiddlewareInterface extends MiddlewareInterface
      * @param DelegateInterface $frame
      * @return ResponseInterface
      */
-    public function process(
-        ServerRequestInterface $request,
-        DelegateInterface $frame
-    );
+    public function process(ServerRequestInterface $request, DelegateInterface $frame);
 }
