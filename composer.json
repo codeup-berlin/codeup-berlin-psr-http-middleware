@@ -1,0 +1,14 @@
+{
+  "name": "codeup/psr-http-middleware",
+  "type": "library",
+  "description": "PSR-15 interface library",
+  "homepage": "https://github.com/codeup-berlin/psr-http-middleware",
+  "autoload": {
+    "psr-4": {
+      "Psr\\Http\\Middleware\\": "src"
+    }
+  },
+  "require": {
+    "psr/http-message": "^1.0"
+  }
+}
